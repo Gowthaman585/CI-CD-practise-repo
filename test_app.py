@@ -1,4 +1,4 @@
-from app import add
+from add import add
 
-def status():
+def test_status():
     assert add(2,3) == 5
